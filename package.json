@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5",
+    "validator": "^13.11.0"
+  },
+  "name": "student_project_portal",
+  "description": "The Collaborative Learning Project Portal is an online platform designed to facilitate and enhance collaborative learning experiences for students. This project aims to create a user-friendly and interactive platform that encourages students to work together on various academic projects, fostering teamwork, knowledge sharing, and skill development.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "set NODE_ENV=development && nodemon server.js",
+    "prod": "set NODE_ENV=production && nodemon server.js"
+  },
+  "author": "S.Revanthramesh",
+  "license": "ISC"
+}

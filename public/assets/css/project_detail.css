@@ -1,0 +1,193 @@
+
+  /*--------------------------------------------------------------
+  # Courses
+  --------------------------------------------------------------*/
+  .courses .course-item {
+    border-radius: 5px;
+    border: 1px solid #eef0ef;
+  }
+  
+  .courses .course-content {
+    padding: 15px;
+  }
+  
+  .courses .course-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .courses .course-content h3 a {
+    color: #37423b;
+    transition: 0.3s;
+  }
+  
+  .courses .course-content h3 a:hover {
+    color: #37517e;
+  }
+  
+  .courses .course-content p {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .courses .course-content h4 {
+    font-size: 14px;
+    background: #37517e;
+    padding: 7px 14px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .courses .course-content .price {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #37423b;
+  }
+  
+  .courses .trainer {
+    padding-top: 15px;
+    border-top: 1px solid #eef0ef;
+  }
+  
+  .courses .trainer .trainer-profile img {
+    max-width: 50px;
+    border-radius: 50px;
+  }
+  
+  .courses .trainer .trainer-profile span {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5a6c60;
+  }
+  
+  .courses .trainer .trainer-rank {
+    font-size: 18px;
+    color: #657a6d;
+  }
+  /*--------------------------------------------------------------
+  # Cource Details
+  --------------------------------------------------------------*/
+  .course-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+  }
+  
+  .course-details h3:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #eef0ef;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .course-details h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: #37517e;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .course-details .course-info {
+    background: #f6f7f6;
+  }
+  
+  .course-details .course-info h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .course-details .course-info p {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .course-details .course-info a {
+    color: #657a6d;
+  }
+  
+  /*--------------------------------------------------------------
+  # Cource Details Tabs
+  --------------------------------------------------------------*/
+  .cource-details-tabs {
+    overflow: hidden;
+    padding-top: 0;
+  }
+  
+  .cource-details-tabs .nav-tabs {
+    border: 0;
+  }
+  
+  .cource-details-tabs .nav-link {
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: #37423b;
+    border-radius: 0;
+    border-right: 2px solid #e2e7e4;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .cource-details-tabs .nav-link:hover {
+    color: #37517e;
+  }
+  
+  .cource-details-tabs .nav-link.active {
+    color: #37517e;
+    border-color: #37517e;
+  }
+  
+  .cource-details-tabs .tab-pane.active {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .cource-details-tabs .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #37423b;
+  }
+  
+  .cource-details-tabs .details p {
+    color: #777777;
+  }
+  
+  .cource-details-tabs .details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 992px) {
+    .cource-details-tabs .nav-link {
+      border: 0;
+      padding: 15px;
+    }
+  
+    .cource-details-tabs .nav-link.active {
+      color: #fff;
+      background: #37517e;
+    }
+  }
+
+
+.pdf1 {
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
